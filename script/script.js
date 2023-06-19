@@ -6,7 +6,6 @@ function getComputerChoice() {
 function playRound() {
   let userChoice = prompt("Rock, Paper or Scissors?").toLowerCase();
   let computerChoice = getComputerChoice();
-  console.log(computerChoice);
   if (userChoice === computerChoice) {
     return "tied";
   } else if (userChoice === "rock") {
